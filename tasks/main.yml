@@ -1,0 +1,9 @@
+---
+
+- name: write default/locale
+  copy: src=locale dest=/etc/default/locale owner=root group=root mode=0644
+
+- name: write locale.gen
+  copy: src=locale.gen dest=/etc/locale.gen owner=root group=root mode=0644
+  notify:
+    - run locale-gen

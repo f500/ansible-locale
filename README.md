@@ -22,6 +22,7 @@ These variables are available with the following default values:
     locale_env:
       lang: "en_US.UTF-8"
       language: "en_US:en"
+      lc_all: "en_US.UTF-8"
       lc_address: ~
       lc_collate: "C"
       lc_ctype: ~
@@ -52,7 +53,7 @@ Example Playbook
 License
 -------
 
-LGPL
+LGPLv3
 
 Author Information
 ------------------

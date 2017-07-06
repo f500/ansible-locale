@@ -53,7 +53,7 @@ Example Playbook
 License
 -------
 
-LGPLv3
+LGPL-3.0
 
 Author Information
 ------------------

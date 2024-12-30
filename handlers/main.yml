@@ -1,4 +1,4 @@
 ---
-
-- name: run locale-gen
-  command: locale-gen
+- name: Run locale-gen
+  ansible.builtin.command: locale-gen
+  changed_when: false
